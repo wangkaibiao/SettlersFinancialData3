@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebcf3955-4104-48c9-b256-153ae11fdca4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/camera.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/camera_pose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/children.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/index0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/indexMB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/indexPC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/movement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/posenet@0.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/posenet@0.2.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/posenetMB.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/posenetPC.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/tf.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/tf.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/tfjs@0.13.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/tfjs_train.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/tfjs_use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/url_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/videomp4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/拍照时怎样摆姿势好看？前端玩转AI之posenet指南 - 云+社区 - 腾讯云.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/教程.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +53,10 @@
         <option value="$PROJECT_DIR$/service/posenet/index050.html" />
         <option value="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/mobilePosenet/posenet.min.js" />
         <option value="$PROJECT_DIR$/service/posenet/posenet050.js" />
+        <option value="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/posenet075.js" />
+        <option value="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/index075.html" />
+        <option value="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/main.py" />
+        <option value="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/appp075.js" />
       </list>
     </option>
   </component>
@@ -49,6 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,20 +125,10 @@
               <item name="0" type="462c0819:PsiDirectoryNode" />
               <item name="qpython" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-              <item name="qpython" type="462c0819:PsiDirectoryNode" />
-              <item name="projects3" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -170,25 +186,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/posenet/mobilenet_v1_100/appp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/posenet/mobilenet_v1_100/posenet.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/posenet/mobilenet_v1_100/indexp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/posenet/mobilenet_v1_100/appp.js" />
+    <entry file="file://$PROJECT_DIR$/service/posenet/mobilenet_v1_100/posenet.min.js" />
+    <entry file="file://$PROJECT_DIR$/service/posenet/mobilenet_v1_100/indexp.html" />
     <entry file="file://$PROJECT_DIR$/service/posenet/posenet100.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -220,19 +220,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/tensorflowJS/URL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="83" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/posenet/appp050.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="53" column="107" selection-start-line="53" selection-start-column="107" selection-end-line="53" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/index075.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/posenet075.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/appp075.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/tensorflowJS/URL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="73" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/posenet/index050.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="421">
           <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
         </state>
       </provider>

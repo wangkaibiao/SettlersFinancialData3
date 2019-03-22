@@ -1,1 +1,0 @@
-https://storage.googleapis.com/tfjs-models/weights/posenet/mobilenet_v1_101/manifest.json

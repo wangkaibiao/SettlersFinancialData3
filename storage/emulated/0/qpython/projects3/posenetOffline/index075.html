@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Camera selection</title>
+  <link rel="stylesheet" href="./app.css" />
+    <script src="jquery.min.js"></script>
+  <script src="tf.min.js"></script>
+  <!-- Load Posenet -->
+  <script src="posenet075.js"></script>
+
+</head>
+
+
+<body>
+
+  <header>
+    <h1>Camera Eyes</h1>
+  </header>
+
+  <main>
+    <div class="controls">
+      <button id="button">START</button>
+      <select id="select">
+        <option></option>
+      </select>
+    </div>
+    <div>
+    <video id="video" width="130" height="130" ></video>
+    </div>
+    <div>
+    <!-- 必须设置为130，并且不加 autoplay playsinline-->
+    <canvas id='canvas' width='130' height='130'></canvas>
+    </div>
+  </main>
+
+  <footer>
+    <p id="singlePose">结果展示</p>
+  </footer>
+
+  <script src="./appp075.js"></script>
+
+</body>
+
+</html>

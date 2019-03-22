@@ -51,7 +51,7 @@ def server_static(filepath):
 @route('/')
 def home():
     return template(
-        '<h1>Hello {{name}} !</h1><a href="/assets/qpython/projects3/posenetOffline/index2.html">index2</a>'
+        '<h1>Hello {{name}} !</h1><a href="/assets/qpython/projects3/posenetOffline/index075.html">index075</a>'
         ,name='posenetOffline')
 
 
