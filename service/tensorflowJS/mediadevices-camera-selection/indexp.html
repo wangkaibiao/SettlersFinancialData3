@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Camera selection</title>
+  <link rel="stylesheet" href="./app.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <!-- Load Posenet -->
+    <script src="https://unpkg.com/@tensorflow-models/posenet"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Camera fun</h1>
+  </header>
+
+  <main>
+    <div class="controls">
+      <button id="button">Get camera</button>
+      <select id="select">
+        <option></option>
+      </select>
+    </div>
+
+    <video id="video" width="130" height="130" ></video>
+    <!-- 必须设置为130，并且不加 autoplay playsinline-->
+    <canvas id='canvas' width='130' height='130'></canvas>
+  </main>
+
+  <footer>
+    <p id="singlePose">Built by
+      <a href="https://twitter.com/philnash">@philnash</a>
+    </p>
+  </footer>
+
+  <script src="./appp.js"></script>
+</body>
+
+</html>
