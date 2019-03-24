@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Camera selection</title>
+  <link rel="stylesheet" href="./app.css" />
+    <script src="jquery.min.js"></script>
+    <script src="tf.min.js"></script>
+    <!-- Load Posenet -->
+    <script src="posenet100.js"></script>
+
+</head>
+
+
+<body>
+
+  <header>
+    <h1>Camera Eyes</h1>
+  </header>
+
+  <table width="800" border="0">
+      <tr>
+          <td style="background-color:#FFD700;width:140px;vertical-align:top;">
+              <video id="video0" width="130" height="130" ></video>
+              <!-- 必须设置为130，并且不加 autoplay playsinline-->
+          </td>
+          <td style="background-color:#eeeeee;height:140px;width:140px;vertical-align:top;">
+              <video id="video1" width="130" height="130" ></video>
+          </td>
+      </tr>
+
+      <tr>
+          <td style="background-color:#FFD700;width:140px;vertical-align:top;">
+              <canvas id='canvas0' width='130' height='130'></canvas>
+          </td>
+          <td style="background-color:#eeeeee;height:140px;width:140px;vertical-align:top;">
+              <canvas id='canvas1' width='130' height='130'></canvas>
+          </td>
+      </tr>
+
+      <tr>
+          <td style="background-color:#FFD700;width:400px;vertical-align:top;">
+              <button id="button0">START0</button>
+              <select id="select0">
+                  <option></option>
+              </select>
+          </td>
+          <td style="background-color:#eeeeee;width:400px;vertical-align:top;">
+              <button id="button1">START1</button>
+              <select id="select1">
+                  <option></option>
+              </select>
+          </td>
+      </tr>
+  </table>
+
+  <footer>
+    <p id="singlePose">结果展示</p>
+  </footer>
+
+  <script src="./appsss.js"></script>
+
+</body>
+
+</html>

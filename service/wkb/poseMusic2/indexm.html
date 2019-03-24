@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Camera selection</title>
+  <link rel="stylesheet" href="./app.css" />
+    <script src="jquery.min.js"></script>
+  <script src="tf.min.js"></script>
+  <!-- Load Posenet -->
+  <script src="posenet100.js"></script>
+
+</head>
+
+
+<body>
+
+   <!--embed height="100" width="100" src="./Piano/res/sound/B3.mp3"></embed>
+   <p><b>注释：</b>浏览器可能需要安装插件以后，才能播放该文件。</p-->
+   <audio id="audio0" controls="controls">
+     <source src="./Piano/res/sound/B3.mp3" type="audio/mp3" />
+     Your browser does not support this audio format.
+   </audio>
+
+
+  <header>
+    <h1>Camera Eyes</h1>
+  </header>
+
+  <main>
+    <div class="controls">
+      <button id="button">START</button>
+      <select id="select">
+        <option></option>
+      </select>
+    </div>
+    <div>
+    <video id="video" width="1000" height="700" ></video>
+    </div>
+    <div>
+    <!-- 必须设置为130，并且不加 autoplay playsinline-->
+    <canvas id='canvas' width='130' height='130'></canvas>
+    </div>
+  </main>
+
+  <footer>
+    <p id="singlePose">结果展示</p>
+  </footer>
+
+  <script src="./appp.js"></script>
+
+</body>
+
+</html>
