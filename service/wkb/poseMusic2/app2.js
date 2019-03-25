@@ -80,6 +80,8 @@ async function setupCamera(){
 async function loadVideo() {
     const video = await setupCamera();
 	video.play();
+	//document.getElementById('showtest').innerHTML=video.width+","+video.height;
+	document.getElementById('showtest').innerHTML=5>null;//true,空值也参与运算
 	const net = await posenet.load(1.00);
 	detectPoseInRealTime(video, net);
 	//requestAnimationFrame(loadVideo);
@@ -90,9 +92,9 @@ function detectPoseInRealTime(video, net) {
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
     // since images are being fed from a webcam
-    const flipHorizontal = true;
-    //canvas.width = 130;
-    //canvas.height = 130;
+    const flipHorizontal = false;//true;的效果差
+    //canvas.width = video.width;
+    //canvas.height = video.height;
 	//document.getElementById("output").style.display = "inline";
     //L = videoWidth / 5;
     //currX= videoWidth/2;
@@ -134,17 +136,21 @@ function detectPoseInRealTime(video, net) {
 ]}*/
 
        if(pose.score > minPoseConfidence){
+           let list_17name=[];
            let list_17x=[];
            let list_17y=[];
 	       pose.keypoints.forEach(({score, part,position}) => {
 	           if (score >= minPartConfidence) {
 	               //document.getElementById('singlePose').innerHTML= part;
-                   list_17x.push(position.x);
-                   list_17y.push(position.y);    }
+	               list_17name.push(part);
+                   list_17x.push(position.x.toFixed(1));
+                   list_17y.push(position.y.toFixed(1));    }
                else{
                    list_17x.push(null);
                    list_17y.push(null);    }    }    );
-           document.getElementById('pose').innerHTML= list_17x;
+           document.getElementById('posename').innerHTML= list_17name;
+           document.getElementById('posex').innerHTML= list_17x;
+           document.getElementById('posey').innerHTML= list_17y;
            var x ;
            //"身体呈正 人 字站立，双臂向外稍微张开; 图片的左上角是原点（0,0）、图片和现实相反"
            nosex=list_17x[0]
@@ -187,13 +193,20 @@ function detectPoseInRealTime(video, net) {
 
                }
 
-           ctx.clearRect(0, 0, canvas.width, canvas.width);
-           ctx.save();
-           ctx.scale(-1, 1);
-           ctx.translate(-canvas.width, 0);//这一步不可少，否则canvas不显示
+           ctx.clearRect(0, 0, canvas.width, canvas.height);
+           //ctx.save();
+           //ctx.scale(-1, 1);
+           //ctx.translate(-canvas.width, 0);//画反方向图，和其他配套使用、否则canvas不显示
            //ctx.translate(canvas.width, 0);//这一步不起作用
-           ctx.drawImage(video, 0, 0, canvas.width, canvas.width);
-           ctx.restore();    }    }
+           ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+           ctx.fillText("起点",10,10);
+           ctx.fillText("终点",canvas.width-20, canvas.height-20);
+           //ctx.restore();
+           for(i=0;i<17;i++){
+               ctx.fillText(list_17x[i]+list_17name[i]+list_17y[i],list_17x[i],list_17y[i]);
+                            }
+
+           }    }
 
         requestAnimationFrame(poseDetectionFrame);//这一步很重要，浏览器不提示栈溢出
                                        }

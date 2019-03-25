@@ -2,122 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebcf3955-4104-48c9-b256-153ae11fdca4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/bin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/bin/make_music.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/A3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/B3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/C3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/D3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/E3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/F3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/G3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A0+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A1+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A2+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A3+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A4+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A5+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A6+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A7+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/A7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/B0.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/B1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/B2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/B3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/B4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/B5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/B6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/B7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C1+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C2+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C3+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C4+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C5+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C6+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C7+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/C8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D1+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D2+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D3+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D4+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D5+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D6+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D7+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/D7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/E1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/E2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/E3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/E4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/E5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/E6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/E7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F1+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F2+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F3+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F4+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F5+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F6+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F7+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/F7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G1+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G2+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G3+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G4+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G5+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G6+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G7+.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/sound/G7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/res/大谱表与钢琴键盘对照表.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/test/两只老虎.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/test/和弦4536251.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/test/说好的幸福呢_周杰伦(未完成).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/Piano/test/钢琴白键一去一回.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/appp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/indexm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/posenet100.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/tf.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/音乐原理/librosa教程(1) 一个简单的音频特征提取程序.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/音乐原理/声音的三要素——响度、音调、音品.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/音乐原理/音乐演奏姿势捕捉技术及其应用.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/音乐原理/音品是由基音和多组不同频率的泛音复合而成的复合波.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic2/音乐原理/音频基本分析.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/bin/make_music.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/A3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/B3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/C3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/D3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/E3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/F3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/G3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A0+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A0.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A1+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A2+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A3+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A4+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A5+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A6+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A7+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/A7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/B0.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/B1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/B2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/B3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/B4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/B5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/B6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/B7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C1+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C2+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C3+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C4+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C5+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C6+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C7+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/C8.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D1+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D2+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D3+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D4+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D5+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D6+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D7+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/D7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/E1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/E2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/E3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/E4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/E5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/E6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/E7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F1+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F2+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F3+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F4+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F5+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F6+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F7+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/F7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G1+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G2+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G3+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G4+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G5+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G6+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G7+.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/sound/G7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/res/大谱表与钢琴键盘对照表.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/test/两只老虎.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/test/和弦4536251.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/test/说好的幸福呢_周杰伦(未完成).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/Piano/test/钢琴白键一去一回.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/app2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/appp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/indexm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/indexm2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/posenet100.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/tf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/音乐原理/librosa教程(1) 一个简单的音频特征提取程序.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/音乐原理/声音的三要素——响度、音调、音品.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/音乐原理/音乐演奏姿势捕捉技术及其应用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/音乐原理/音品是由基音和多组不同频率的泛音复合而成的复合波.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/wkb/poseMusic/音乐原理/音频基本分析.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,10 +160,10 @@
         <option value="$PROJECT_DIR$/service/wkb/poseMusic/appp.js" />
         <option value="$PROJECT_DIR$/service/wkb/poseMusic2/indexm.html" />
         <option value="$PROJECT_DIR$/service/wkb/poseMusic2/appp.js" />
+        <option value="$PROJECT_DIR$/service/wkb/poseMusic/indexm2.html" />
+        <option value="$PROJECT_DIR$/service/wkb/poseMusic/app2.js" />
         <option value="$PROJECT_DIR$/service/wkb/poseMusic2/indexm2.html" />
         <option value="$PROJECT_DIR$/service/wkb/poseMusic2/app2.js" />
-        <option value="$PROJECT_DIR$/service/wkb/poseMusic/app2.js" />
-        <option value="$PROJECT_DIR$/service/wkb/poseMusic/indexm2.html" />
       </list>
     </option>
   </component>
@@ -191,6 +193,19 @@
               <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
               <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="wkb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="wkb" type="462c0819:PsiDirectoryNode" />
+              <item name="poseMusic2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -398,48 +413,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/index100.html" />
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/appp.js" />
-    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/appp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2071">
-          <caret line="173" column="70" selection-start-line="173" selection-start-column="70" selection-end-line="173" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/indexm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/app2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/indexm2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/appp.js" />
+    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/indexm.html" />
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/indexm.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/app2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="146" column="37" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
+        <state relative-caret-position="1036">
+          <caret line="195" column="13" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/indexm2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="34" />
+        <state relative-caret-position="600">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/app2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/indexm2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
         </state>
       </provider>
     </entry>

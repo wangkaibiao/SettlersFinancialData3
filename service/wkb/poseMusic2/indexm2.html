@@ -44,16 +44,24 @@
   </tr>
   <tr>
     <td>
-      <video id="video" width="130" height="130" ></video>
+      <video id="video" width="400" height="300" ></video>
+      <!-- 16:9 的比例，并且不加 autoplay playsinline-->
     </td>
     <td>
-      <!-- 必须设置为130，并且不加 autoplay playsinline-->
-      <canvas id='canvas' width='500' height='500'></canvas>
+      <!-- 必须设置为和video尺寸一样的，识别的坐标位置才相同，用区域截图来查看真实像素大小-->
+      <canvas id='canvas' width="400" height="300"></canvas>
     </td>
   </tr>
 
   <tr>
-    <td><p id="pose">pose</p></td>
+    <td><p id="posename">posename</p></td>
+    <td><p id="showtest">showtest</p></td>
+  </tr>
+    <tr>
+    <td><p id="posex">posex</p></td>
+  </tr>
+    <tr>
+    <td><p id="posey">posey</p></td>
   </tr>
 </table>
 
