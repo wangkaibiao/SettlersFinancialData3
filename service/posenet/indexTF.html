@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>testTF</title>
+  <link rel="stylesheet" href="./app.css" />
+    <script src="jquery.min.js"></script>
+  <script src="tf.min.js"></script>
+  <!-- Load Posenet -->
+  <script src="posenet100.js"></script>
+
+</head>
+
+
+<body>
+
+  <header>
+    <h1>testTF</h1>
+  </header>
+
+  <main>
+    <div class="controls">
+      <button id="button">START</button>
+      <select id="select">
+        <option></option>
+      </select>
+      <button id="testTF">testTF</button>
+    </div>
+    <table>
+      <tr id="imageData">
+        <td>
+          <video id="video" width="130" height="130" ></video>
+        </td>
+        <td>
+          <!-- 必须设置为130，并且不加 autoplay playsinline-->
+          <canvas id='canvas' width='130' height='130'></canvas>
+        </td>
+      </tr>
+
+      <tr id="showTF">
+        <td>
+          <p id="showTF1">showTF1</p>
+        </td>
+        <td>
+          <p id="showTF2">showTF2</p>
+        </td>
+        <td>
+          <p id="showTF3">showTF3</p>
+        </td>
+      </tr>
+
+    </table>
+  </main>
+
+  <footer>
+    <p id="singlePose">结果展示</p>
+  </footer>
+
+  <!--script src="./appp.js" -->
+  <script>
+    const testTF = document.getElementById("testTF")
+    testTF.addEventListener("click",event => tfjs())
+
+    function tfjs(){
+        function f(x){
+            var x = tf.variable(tf.scalar(x))      //必须是tf.scalar()
+            const y =x.pow(tf.scalar(2)).mul(tf.scalar(3)).add(tf.scalar(1))
+            document.getElementById("showTF1").innerHTML=y
+            return y
+            }                                      //tf.scalar属于tensor，所以不用加tf.tensor()
+        f(2)
+
+        //如何配合使用
+        function fv(x){
+            //var x = tf.variable(tf.scalar(x))
+            return tf.tidy(()=>{
+                const y =x.pow(tf.scalar(2)).mul(tf.scalar(3)).add(tf.scalar(1))
+                document.getElementById("showTF1").innerHTML=y
+                return y        })
+                      }
+        function minimize(epochs,lr){
+            let startX=tf.variable(tf.scalar(2))  //必须得有，才能训练中改变
+            const optim = tf.train.adam(lr)
+            for(i=0;i<epochs;i++){
+                optim.minimize(()=>fv(startX))}
+            document.getElementById("showTF2").innerHTML=startX
+            }
+        minimize(10000,0.1,2)
+
+        //层次训练，训练速度有点慢，好像没有训练的意义
+
+
+        }
+
+  </script>
+
+</body>
+
+</html>

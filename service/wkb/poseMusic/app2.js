@@ -25,7 +25,7 @@ function check(){
     else{status.innerHTML="paused";    }     }
 
 status.addEventListener('click', event => check());
-
+document.getElementById('showtest').innerHTML=5<"null";//空值也参与运算;5>null为true,5和"null"比都是false
 
 //获取摄像头设备
 let currentStream;
@@ -81,7 +81,6 @@ async function loadVideo() {
     const video = await setupCamera();
 	video.play();
 	//document.getElementById('showtest').innerHTML=video.width+","+video.height;
-	document.getElementById('showtest').innerHTML=5>null;//true,空值也参与运算
 	const net = await posenet.load(1.00);
 	detectPoseInRealTime(video, net);
 	//requestAnimationFrame(loadVideo);
@@ -146,8 +145,8 @@ function detectPoseInRealTime(video, net) {
                    list_17x.push(position.x.toFixed(1));
                    list_17y.push(position.y.toFixed(1));    }
                else{
-                   list_17x.push(null);
-                   list_17y.push(null);    }    }    );
+                   list_17x.push("null");//null是能够参与比较的
+                   list_17y.push("null");    }    }    );
            document.getElementById('posename').innerHTML= list_17name;
            document.getElementById('posex').innerHTML= list_17x;
            document.getElementById('posey').innerHTML= list_17y;
