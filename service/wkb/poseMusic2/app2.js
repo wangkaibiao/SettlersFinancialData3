@@ -25,7 +25,20 @@ function check(){
     else{status.innerHTML="paused";    }     }
 
 status.addEventListener('click', event => check());
-document.getElementById('showtest').innerHTML=5<"null";//空值也参与运算;5>null为true,5和"null"比都是false
+document.getElementById('showtest').innerHTML=true & false//5<"null";//空值也参与运算;5>null为true,5和"null"比都是false
+
+function exportCanvasAsPNG(id, fileName) {
+    var canvasElement = document.getElementById(id);
+    var MIME_TYPE = "image/png";
+    var imgURL = canvasElement.toDataURL(MIME_TYPE);
+    var dlLink = document.createElement('a');
+    dlLink.download = fileName;
+    dlLink.href = imgURL;
+    dlLink.dataset.downloadurl = [MIME_TYPE, dlLink.download, dlLink.href].join(':');
+    document.body.appendChild(dlLink);
+    dlLink.click();
+    document.body.removeChild(dlLink);
+}
 
 //获取摄像头设备
 let currentStream;
@@ -142,42 +155,50 @@ function detectPoseInRealTime(video, net) {
 	           if (score >= minPartConfidence) {
 	               //document.getElementById('singlePose').innerHTML= part;
 	               list_17name.push(part);
-                   list_17x.push(position.x.toFixed(1));
-                   list_17y.push(position.y.toFixed(1));    }
+                   list_17x.push(Number(position.x.toFixed(1)));//必须得加Number，否则下边数字比较时会不稳定
+                   list_17y.push(Number(position.y.toFixed(1)));    }
                else{
-                   list_17x.push("null");//null是能够参与比较的
-                   list_17y.push("null");    }    }    );
+                   list_17name.push(null);//part
+                   list_17x.push(NaN);//数字和NaN比都是false
+                   list_17y.push(NaN);    }    }    );
            document.getElementById('posename').innerHTML= list_17name;
            document.getElementById('posex').innerHTML= list_17x;
            document.getElementById('posey').innerHTML= list_17y;
-           var x ;
+           var x,command ;//歌曲名称
            //"身体呈正 人 字站立，双臂向外稍微张开; 图片的左上角是原点（0,0）、图片和现实相反"
            nosex=list_17x[0]
            nosey=list_17y[0]//#以鼻子为参照点
            //#以手腕作为活动点
            try{
-           if (list_17x[10]< nosex & list_17y[10] < nosey){
+           if (list_17x[10]< nosex && list_17y[10] < nosey){
                x='./Piano/res/sound/C3.mp3';
-               document.getElementById('singlePose').innerHTML="右手 垂直向上指"+x;    }
-           else if (list_17x[10]> nosex & list_17y[10] < nosex){
+               command="右手 垂直向上指"+x;
+               document.getElementById('singlePose').innerHTML=command    }
+           else if (list_17x[10]> nosex && list_17y[10] < nosex){
                x='./Piano/res/sound/D3.mp3';
-               document.getElementById('singlePose').innerHTML="右手朝左上方指、高于鼻子"+x;    }
-           else if (list_17x[10]> nosex & list_17y[10] > nosey){
+               command="右手朝左上方指、高于鼻子"+x;
+               document.getElementById('singlePose').innerHTML=command    }
+           else if (list_17x[10]> nosex && list_17y[10] > nosey){
                x='./Piano/res/sound/E3.mp3';
-               document.getElementById('singlePose').innerHTML="右手朝左指、不高于 鼻子"+x;    }
-           else if (list_17x[9]> nosex & list_17y[9] < nosey){
+               command="右手朝左指、不高于 鼻子"+x;
+               document.getElementById('singlePose').innerHTML=command   }
+           else if (list_17x[9]> nosex && list_17y[9] < nosey){
                x='./Piano/res/sound/F3.mp3';
-               document.getElementById('singlePose').innerHTML="左手 垂直向上指"+x;    }
-           else if (list_17x[9]< nosex & list_17y[9] < nosex){
+               command="左手 垂直向上指"+x;
+               document.getElementById('singlePose').innerHTML=command    }
+           else if (list_17x[9]< nosex && list_17y[9] < nosex){
                x='./Piano/res/sound/G3.mp3';
-               document.getElementById('singlePose').innerHTML="左手朝右上方指、高于鼻子"+x;    }
-           else if (list_17x[9]< nosex & list_17y[9] > nosey){
+               command="左手朝右上方指、高于鼻子"+x;
+               document.getElementById('singlePose').innerHTML=command    }
+           else if (list_17x[9]< nosex && list_17y[9] > nosey){
                x='./Piano/res/sound/A3.mp3';
-               document.getElementById('singlePose').innerHTML="左手朝右指、不高于 鼻子"+x;    }
-           else if ((list_17x[9]< nosex & list_17y[9] > nosey) & (list_17x[10]< nosex & list_17y[10] < nosey)){
+               command="左手朝右指、不高于 鼻子"+x;
+               document.getElementById('singlePose').innerHTML=command    }
+           else if ((list_17x[9]< nosex && list_17y[9] > nosey) && (list_17x[10]< nosex && list_17y[10] < nosey)){
                x='./Piano/res/sound/B3.mp3';
-               document.getElementById('singlePose').innerHTML="左手朝右指、不高于 鼻子;右手 垂直向上指"+x;    }
-           }catch(err){document.getElementById('singlePose').innerHTML=err}
+               command="左手朝右指、不高于 鼻子;右手 垂直向上指"+x;
+               document.getElementById('singlePose').innerHTML=command   }
+           }catch(err){document.getElementById('showtest').innerHTML=err}
 
 
            if(typeof x !== 'undefined') {
@@ -204,6 +225,7 @@ function detectPoseInRealTime(video, net) {
            for(i=0;i<17;i++){
                ctx.fillText(list_17x[i]+list_17name[i]+list_17y[i],list_17x[i],list_17y[i]);
                             }
+           exportCanvasAsPNG('canvas', (new Date().getTime()).toString()+command+"t")//保存,//第三种获取了当前毫秒的时间戳。
 
            }    }
 
