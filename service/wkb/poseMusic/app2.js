@@ -117,9 +117,9 @@ function detectPoseInRealTime(video, net) {
         const imageScaleFactor = 0.3;
         const outputStride = 16;
         //let poses = [];
-        let minPoseConfidence = 0.1;
-        let minPartConfidence = 0.5;
-        if (audio.paused & status.innerHTML=="paused"){
+        let minPoseConfidence = 0.2;
+        let minPartConfidence = 0.6;
+        if (audio.paused ){//&& status.innerHTML=="paused"
             status.innerHTML="waiting";
             const pose = await net.estimateSinglePose(video, imageScaleFactor, flipHorizontal, outputStride);
 	        //document.getElementById('singlePose').innerHTML= JSON.stringify(pose);
@@ -201,18 +201,6 @@ function detectPoseInRealTime(video, net) {
            }catch(err){document.getElementById('showtest').innerHTML=err}
 
 
-           if(typeof x !== 'undefined') {
-               audio.src=x;
-               audio.play();
-               // For each pose (i.e. person) detected in an image, loop through the poses
-               // and draw the resulting skeleton and keypoints if over certain confidence
-               // scores
-               //audio.addEventListener("playing", function(){});
-                                       }
-           else{document.getElementById('singlePose').innerHTML="姿势未编码";
-
-               }
-
            ctx.clearRect(0, 0, canvas.width, canvas.height);
            //ctx.save();
            //ctx.scale(-1, 1);
@@ -225,7 +213,21 @@ function detectPoseInRealTime(video, net) {
            for(i=0;i<17;i++){
                ctx.fillText(list_17x[i]+list_17name[i]+list_17y[i],list_17x[i],list_17y[i]);
                             }
-           exportCanvasAsPNG('canvas', (new Date().getTime()).toString()+command+"t")//保存,//第三种获取了当前毫秒的时间戳。
+
+
+           if(typeof x !== 'undefined') {
+               audio.src=x;
+               audio.play();
+               // For each pose (i.e. person) detected in an image, loop through the poses
+               // and draw the resulting skeleton and keypoints if over certain confidence
+               // scores
+               //audio.addEventListener("playing", function(){});
+               exportCanvasAsPNG('canvas', (new Date().getTime()).toString()+command+"t")//保存,//第三种获取了当前毫秒的时间戳。
+                                       }
+           else{document.getElementById('singlePose').innerHTML="姿势未编码";
+
+               }
+           
 
            }    }
 
