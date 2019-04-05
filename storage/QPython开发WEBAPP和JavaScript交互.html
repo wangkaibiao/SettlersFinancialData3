@@ -287,7 +287,11 @@ run(host='localhost', port=8080)
     River，移动互联网创业者，1 人赞同了该回答
 server = MyWSGIRefServer(host="0.0.0.0", port="8080")
 或者 server = WSGIRefServer(host="0.0.0.0", port="8080")
-确认host为"0.0.0.0" ?  发布于 2014-05-06】</code></pre>
+确认host为"0.0.0.0" ?  发布于 2014-05-06
+    此外，还要去掉以下内容：
+#qpy:2
+#qpy:webapp:Sample
+#qpy://localhost:8080/    】</code></pre>
 
 
 <p>下面是一步步解释：</p>
