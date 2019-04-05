@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Camera selection</title>
+  <link rel="stylesheet" href="./app.css" />
+    <script src="jquery.min.js"></script>
+  <script src="tf.min.js"></script>
+  <!-- Load Posenet -->
+  <script src="posenet075.js"></script>
+
+</head>
+
+
+<body>
+
+  <header>
+    <h1>Camera Eyes</h1>
+  </header>
+
+<table>
+  <tr>
+    <td>
+      <button id="button">START</button>
+      <select id="select">
+        <option></option>
+      </select>
+    </td>
+    <td>
+      <!--embed height="100" width="100" src="./Piano/res/sound/B3.mp3"></embed>
+      <p><b>注释：</b>浏览器可能需要安装插件以后，才能播放该文件。</p-->
+      <audio id="audio0" controls="controls">
+        <source src="./Piano/res/sound/B3.mp3" type="audio/mp3" />
+        Your browser does not support this audio format.
+      </audio>
+    </td>
+    <td>
+      <button id="status">paused</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video id="video" width="400" height="300" ></video>
+      <!-- 16:9 的比例，并且不加 autoplay playsinline-->
+    </td>
+    <td>
+      <!-- 必须设置为和video尺寸一样的，识别的坐标位置才相同，用区域截图来查看真实像素大小-->
+      <canvas id='canvas' width="400" height="300"></canvas>
+    </td>
+  </tr>
+
+  <tr>
+    <td><p id="posename">posename</p></td>
+    <td><p id="showtest">showtest</p></td>
+  </tr>
+    <tr>
+    <td><p id="posex">posex</p></td>
+  </tr>
+    <tr>
+    <td><p id="posey">posey</p></td>
+  </tr>
+</table>
+
+  <footer>
+    <p id="singlePose">结果展示</p>
+  </footer>
+
+  <script src="./app2.js"></script>
+
+</body>
+
+</html>
