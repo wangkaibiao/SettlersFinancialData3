@@ -45,7 +45,10 @@ def __ping():
 
 def index():
     Droid.vibrate()
-    return """<html><body><button onclick='location.href="/hello"'>显示我在哪里</button></body></html>"""
+    return """<html><body>
+    <button onclick='location.href="/hello"'>显示我在哪里</button>
+    <img style="-webkit-user-select: none;" src="https://restapi.amap.com/v3/staticmap?location=118.391761,35.023749000000002&amp;zoom=10&amp;size=750*300&amp;markers=mid,,A:118.391761,35.023749000000002&amp;key=3975f37408a3ab4904502e3630639014">
+    </body></html>"""
     #详见JavaScript的location对象属性
 
 def hello():
