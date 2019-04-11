@@ -24,8 +24,8 @@ from readability import Document
 def oneMailUrls(index=6346):#index是第几封邮件，1代表最早一封邮件，0代表最新一封邮件    
     '''一、登录邮箱'''
     host = "pop3.139.com"# pop3服务器地址
-    username = "cmbc95568@139.com"# 用户名
-    password = "wkb230870"# 密码
+    username = ""# 用户名
+    password = ""# 密码
     pp = poplib.POP3(host)# 创建一个pop3对象，这个时候实际上已经连接上服务器了
     pp.set_debuglevel(1)# 设置调试模式，可以看到与服务器的交互信息
     pp.user(username)# 向服务器发送用户名#b'+OK'
