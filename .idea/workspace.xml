@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebcf3955-4104-48c9-b256-153ae11fdca4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/sync.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/wkb/IPcamera/core.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/baidu_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage/baidu_cloud.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +12,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/wkb/IPcamera/core.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,6 +74,7 @@
         <option value="$PROJECT_DIR$/storage/emulated/0/qpython/projects3/map/main.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/storage/baidu_cloud.py" />
+        <option value="$PROJECT_DIR$/service/wkb/IPcamera/core.html" />
       </list>
     </option>
   </component>
@@ -89,6 +99,31 @@
               <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
               <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="wkb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="wkb" type="462c0819:PsiDirectoryNode" />
+              <item name="IPcamera" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="wkb" type="462c0819:PsiDirectoryNode" />
+              <item name="poseMusic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -97,6 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/service" />
   </component>
   <component name="RecentsManager">
@@ -166,6 +202,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -252,27 +289,6 @@
     <entry file="file://$PROJECT_DIR$/service/posenet/app.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/wkb/cameras/appsss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1217">
-          <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/wkb/cameras/indexsss.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/emulated/0/qpython/projects3/posenetOffline/appsss.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -302,7 +318,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/index100.html" />
-    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/appp.js" />
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/appp.js" />
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic2/indexm.html" />
     <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/indexm.html" />
@@ -424,6 +439,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/wkb/cameras/appsss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/wkb/cameras/indexsss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/wkb/poseMusic/appp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/wkb/IPcamera/core.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
