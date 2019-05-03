@@ -6,32 +6,25 @@
 </head>
 <body>
 <!--img src="http://192.168.0.104:8081/video" -->
-<!-- video src="http://192.168.0.104:8081/video"></video -->
+<video src="http://192.168.0.104:8081/video" type="video/mjpeg"></video>
+<video id="video" controls="controls">
+<source src="http://192.168.0.104:8081/video">
+</video>
 <canvas id="myCanvas" width="578" height="200"></canvas>
 <script>
 var canvas = document.getElementById('myCanvas');
 var context = canvas.getContext('2d');
 var img = new Image();
-
 function showImg(){
- img.src = "http://192.168.0.104:8081/video";
-  img.onload=function() {
-	canvas.width = this.width;
-	canvas.height = this.height
-	context.drawImage(this, 0, 0);
-  };
-  setTimeout("showImg()",0);
-  }
+    img.src = "http://192.168.0.104:8081/video";//标签属性赋值
+    img.onload=function(){  //标签属性赋值
+        canvas.width = this.width;  //this此处指img标签
+	    canvas.height = this.height;
+	    context.drawImage(this, 0, 0);
+        };
+    setTimeout("showImg()",0);
+    };
 showImg();
-/*这种方法不行
-  function showImg(){
-	canvas.width = this.width;
-	canvas.height = this.height
-	context.drawImage(this, 0, 0);
-  };
-
-if (img.onload){showImg()};
-*/
 </script>
 </body>
 </html>

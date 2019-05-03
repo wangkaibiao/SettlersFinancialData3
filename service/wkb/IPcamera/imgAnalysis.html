@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>本质</title>
+    <script src="jquery.min.js"></script>
+    <script src="tf.min.js"></script>
+    <!-- Load Posenet -->
+    <script src="posenet100.js"></script>
+</head>
+<body>
+<!--img src="http://192.168.0.104:8081/video" -->
+<!-- video src="http://192.168.0.104:8081/video"></video -->
+<canvas id="myCanvas" width="578" height="200"></canvas>
+<img id="cat" src="./wkb.jpeg">
+<p id="singlePose">show</p>
+<script>
+async function estimate(imageElement){
+    const net = await posenet.load(1.00);
+    const imageScaleFactor = 0.3;
+    const flipHorizontal = true;
+    const outputStride = 16;
+    const pose = await net.estimateSinglePose(imageElement, imageScaleFactor, flipHorizontal, outputStride);
+	document.getElementById('singlePose').innerHTML= JSON.stringify(pose);
+	};
+
+const imageElement = document.getElementById('cat');
+estimate(imageElement);
+
+
+var img = new Image();
+img.id='cat1';
+    //img.crossOrigin ="anonymous";//加上防止Failed to execute 'texImage2D' on 'WebGL2RenderingContext': The image element contains cross-origin data, and may not be loaded.
+    img.width = 224;
+    img.height = 224;
+
+ function showImg(){
+
+
+    img.onload=  function(){  //标签属性赋值
+        document.body.appendChild(img);
+        const imageElement1 = document.getElementById('cat1');//该方法不行
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+        canvas.width = this.width;  //this此处指img标签
+	    canvas.height = this.height;
+	    context.drawImage(this, 0, 0);
+	    //context.restore();
+	    //var dd=canvas.toDataURL("image/png");//log出图片base64数据，没有crossOrigin ="anonymous"就会提示污染不能转换
+	    //$('cat').attr("src",dd);//img的src直接输入base64图片则直接显示
+        };
+
+        img.src = "http://192.168.0.104:8081/video";//标签属性赋值，必须在onload下边
+    setTimeout("showImg()",100);
+    };
+showImg();
+</script>
+</body>
+</html>
