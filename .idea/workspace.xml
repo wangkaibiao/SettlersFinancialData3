@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebcf3955-4104-48c9-b256-153ae11fdca4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/wkb/IPcamera/imgAnalysis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/wkb/IPcamera/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/wkb/IPcamera/posenet100.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/wkb/IPcamera/tf.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/wkb/IPcamera/wkb.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wkb/IPcamera/core.html" beforeDir="false" afterPath="$PROJECT_DIR$/service/wkb/IPcamera/core.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/selenium_ubuntu.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/selenium_ubuntu.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/wkb/IPcamera/imgAnalysis.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,6 +67,7 @@
         <option value="$PROJECT_DIR$/service/wkb/IPcamera/posenet100.js" />
         <option value="$PROJECT_DIR$/service/wkb/IPcamera/core.html" />
         <option value="$PROJECT_DIR$/service/wkb/IPcamera/imgAnalysis.html" />
+        <option value="$PROJECT_DIR$/data/selenium_ubuntu.py" />
       </list>
     </option>
   </component>
@@ -110,101 +96,7 @@
             <path>
               <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
               <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="wkb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="wkb" type="462c0819:PsiDirectoryNode" />
-              <item name="IPcamera" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="wkb" type="462c0819:PsiDirectoryNode" />
-              <item name="poseMusic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-              <item name="qpython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-              <item name="qpython" type="462c0819:PsiDirectoryNode" />
-              <item name="projects3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-              <item name="qpython" type="462c0819:PsiDirectoryNode" />
-              <item name="projects3" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-              <item name="qpython" type="462c0819:PsiDirectoryNode" />
-              <item name="projects3" type="462c0819:PsiDirectoryNode" />
-              <item name="mobilePosenet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-              <item name="qpython" type="462c0819:PsiDirectoryNode" />
-              <item name="projects3" type="462c0819:PsiDirectoryNode" />
-              <item name="posenetOffline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="emulated" type="462c0819:PsiDirectoryNode" />
-              <item name="0" type="462c0819:PsiDirectoryNode" />
-              <item name="qpython" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts3" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.selenium_ubuntu">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SettlersFinancialData3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,8 +154,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="selenium_ubuntu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SettlersFinancialData3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/selenium_ubuntu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.selenium_ubuntu" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -283,7 +194,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -308,8 +218,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/posenet/mobilenet_v1_100/posenet.min.js" />
-    <entry file="file://$PROJECT_DIR$/service/posenet/mobilenet_v1_100/indexp.html" />
     <entry file="file://$PROJECT_DIR$/service/posenet/posenet100.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -582,6 +490,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/selenium_ubuntu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="87" column="6" selection-start-line="86" selection-end-line="89" selection-end-column="22" />
+          <folding>
+            <element signature="e#106#136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

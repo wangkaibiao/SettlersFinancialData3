@@ -44,11 +44,12 @@ class test(object):#虽然括号里没有写参数，但是建立实例时要把
 在火狐浏览器上安装katalon recorder，并录制导出动作，注意导出时可以选择各种程序语言环境、如选择python2'''
 def test_question_ans():#目前只能操控固定的窗口
     url="https://nexam.cmbc.com.cn/wis18/usermain/paper/userpaper.answeruserpapercurr.flow?sid=5851745584847088"
+    url="https://nexam.cmbc.com.cn/wis18/userpaper.viewuserhispaperqueslist.flow?p_id=6094126582324386&trys=2"
     #"https://nexam.cmbc.com.cn/wis18/usermain/paper/userpaper.answeruserpapercurr.flow?sid=5851745584847088"
     browser=chrome()
     browser.get(url)
     #对于嵌套frame的网页，要先转换到相应层的frame、然后处理里边包含的html
-    browser.switch_to.frame(4)#通过index索引号逐个尝试目标信息在哪一层，
+    browser.switch_to.frame(0)#通过index索引号逐个尝试目标信息在哪一层，
     #每次都要重新打开首页    
     for i in range(0,100):#开始下载目标信息保存到html文件，用于后续提取
         sleep(0.5)
@@ -69,3 +70,21 @@ def test_question_ans():#目前只能操控固定的窗口
     writer = csv.writer(questions_file)
     writer.writerows(questions)
     questions_file.close()
+
+'''三、无框架的情况'''
+browser=chrome()
+url="https://nexam.cmbc.com.cn/wis18/userpaper.viewuserhispaperqueslist.flow?p_id=6094126582324386&trys=10"
+browser.get(url)
+
+questions=[]
+for i in range(0, 155):  # 开始下载目标信息保存到html文件，用于后续提取
+    sleep(0.5)
+    questions.append( browser.find_element_by_xpath('//*[@id="mainfrm"]/table[1]/tbody/tr[3]/td/table/tbody/tr[2]'
+                                                    ).get_attribute('textContent')  )
+    browser.find_element_by_xpath('//*[@id="mainfrm"]/table[2]/tbody/tr/td/p/input[2]').click()
+
+#并保存到csv文件中
+questions_file = open("test.csv",'w')
+writer = csv.writer(questions_file)
+writer.writerow(questions)
+questions_file.close()
