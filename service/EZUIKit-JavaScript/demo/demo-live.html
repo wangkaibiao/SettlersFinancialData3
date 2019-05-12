@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <title>EZOPEN播放协议</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    #url {
+      width: 100%;
+    }
+
+    .btn-container {
+      margin: 10px;
+    }
+
+    #myPlayer {
+      max-width: 600px;
+      width: 100%;
+    }
+  </style>
+  <script src="../ezuikit.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../tf.min.js"></script>
+  <script src="../posenet100.js"></script>
+</head>
+
+<body>
+  <img id="cat" src="../wkb.jpeg">
+  <p id="singlePose">show</p>
+    <!-- ezopen://open.ys7.com/f01018a141094b7fa138b9d0b856507b[.hd].live.[rtmp|hls|ws|flv|m3u8] http://hls.open.ys7.com/openlive/f01018a141094b7fa138b9d0b856507b.hd.m3u8-->
+  <textarea id="url" placeholder="这里输入直播地址">http://hls.open.ys7.com/openlive/f01018a141094b7fa138b9d0b856507b.m3u8</textarea>
+  <div class="btn-container">
+    <button id="init">初始化播放</button>
+    <button id="stop">结束</button>
+  </div>
+
+  <video 
+    id="myPlayer"
+    autoplay
+    src=""
+    controls
+    playsInline 
+    webkit-playsinline
+  >
+  </video>
+  <div id="output"></div>
+  <script type="text/javascript">
+    (async function(){  //这是整个直接运行的函数，下面又定义了很多操作步骤
+        /*第一步，加载模型并建立计算函数*/
+        const net = await posenet.load(1.00);//加载模型
+        const imageScaleFactor = 0.3;
+        const flipHorizontal = true;
+        const outputStride = 16;
+        async function estimate(imageElement,net){  //传递了一层还是可以的，测试通过
+            const pose = await net.estimateSinglePose(imageElement, imageScaleFactor, flipHorizontal, outputStride);
+	        document.getElementById('singlePose').innerHTML= JSON.stringify(pose);
+	                                         };
+        //let imageElement1 = document.getElementById('cat');
+        //estimate(imageElement1,net); //此处可行
+
+        /*第二步，设置事件响应*/
+        var video, output;
+        var scale = 1.3;
+        output = document.getElementById("output");
+        video = document.getElementById("myPlayer");//！！！定义好之后就能随时动态获取了！！！
+        //以下这些注释的部分不能位于此处，要位于函数内部
+        //var canvas = document.createElement("canvas");
+        //canvas.width = video.videoWidth * scale;
+        //canvas.height = video.videoHeight * scale;
+        //var img1 = document.createElement("img");
+
+        //var initialize = function() { //也可以用变量启动函数
+        async function initialize(){
+            //let imageElement1 = document.getElementById('cat');
+            //estimate(imageElement1,net);//此处测试也可以
+
+            //output = document.getElementById("output");
+            //video = document.getElementById("myPlayer");
+            video.addEventListener('click',captureImage);//此处函数引用不加()
+            };
+            function captureImage() {
+                var canvas = document.createElement("canvas");
+                canvas.width = video.videoWidth * scale;
+                canvas.height = video.videoHeight * scale;
+                canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+                var img1 = document.createElement("img");
+                img1.src = canvas.toDataURL("image/png");
+                img1.onload= function(){  //标签属性赋值，必须等到图片加载完毕后才能计算
+                    estimate(img1,net);
+                    }
+                output.appendChild(img1);
+                //let imageElement1 = document.getElementById('cat');
+                //estimate(imageElement1,net);//此处测试也可以
+                };
+        initialize();
+        })();
+  </script>
+
+  <script>
+    $('#init').click(function () {
+      var url = $('#url').val().trim();
+      $('#myPlayer').attr("src", url);
+      var player = new EZUIKit.EZUIPlayer('myPlayer');
+      // 日志
+      player.on('log', log);
+
+      function log(str) {
+        var div = document.createElement('DIV');
+        div.innerHTML = (new Date()).Format('yyyy-MM-dd hh:mm:ss.S') + JSON.stringify(str);
+        document.body.appendChild(div);
+      }
+      $("#stop").click(function () {
+        player.stop();
+      })
+    });
+  </script>
+</body>
+
+</html>

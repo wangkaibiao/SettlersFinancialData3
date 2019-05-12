@@ -70,6 +70,7 @@ async function loadVideo() {
 	   video.play();
 	    const net = await posenet.load(1.00);
 	    detectPoseInRealTime(video, net);    }
+
 	function detectPoseInRealTime(video, net) {
 	    const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');

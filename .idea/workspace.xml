@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebcf3955-4104-48c9-b256-153ae11fdca4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/service/EZUIKit-JavaScript/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/EZUIKit-JavaScript/posenet100.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/EZUIKit-JavaScript/tf.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/EZUIKit-JavaScript/wkb.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/selenium_ubuntu.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/selenium_ubuntu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/posenet/appp.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/posenet/appp.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +30,7 @@
     <findStrings>
       <find>http</find>
       <find>https</find>
+      <find>cat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,6 +73,8 @@
         <option value="$PROJECT_DIR$/service/wkb/IPcamera/core.html" />
         <option value="$PROJECT_DIR$/service/wkb/IPcamera/imgAnalysis.html" />
         <option value="$PROJECT_DIR$/data/selenium_ubuntu.py" />
+        <option value="$PROJECT_DIR$/service/posenet/appp.js" />
+        <option value="$PROJECT_DIR$/service/EZUIKit-JavaScript/demo/demo-live.html" />
       </list>
     </option>
   </component>
@@ -96,7 +103,33 @@
             <path>
               <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
               <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="EZUIKit-JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="EZUIKit-JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="wkb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SettlersFinancialData3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SettlersFinancialData3" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="wkb" type="462c0819:PsiDirectoryNode" />
+              <item name="IPcamera" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -109,15 +142,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/service" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service/wkb/cameras" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service/EZUIKit-JavaScript" />
       <recent name="$PROJECT_DIR$/service/wkb/IPcamera" />
       <recent name="$PROJECT_DIR$/service" />
       <recent name="$PROJECT_DIR$/service/wkb/poseMusic" />
       <recent name="$PROJECT_DIR$/service/posenet" />
-      <recent name="$PROJECT_DIR$/service/wkb/poseMusic2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/service/wkb/cameras" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -158,6 +191,9 @@
       <module name="SettlersFinancialData3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -199,7 +235,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -208,7 +244,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -218,30 +254,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/posenet/posenet100.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/tensorflowJS/sketcher/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/emulated/0/qpython/projects3/mobilePosenet/posenet.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/posenet/posenet050.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/posenet/appp050.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -466,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/posenet/appp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/wkb/quick_response_code/wkb.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -486,23 +491,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/wkb/IPcamera/imgAnalysis.html">
+    <entry file="file://$PROJECT_DIR$/test.csv" />
+    <entry file="file://$PROJECT_DIR$/data/selenium_ubuntu.py" />
+    <entry file="file://$PROJECT_DIR$/service/EZUIKit-JavaScript/demo/demo-monitor.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/EZUIKit-JavaScript/posenet100.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/EZUIKit-JavaScript/index1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/posenet/appp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="136">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/selenium_ubuntu.py">
+    <entry file="file://$PROJECT_DIR$/service/wkb/IPcamera/imgAnalysis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="87" column="6" selection-start-line="86" selection-end-line="89" selection-end-column="22" />
-          <folding>
-            <element signature="e#106#136#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="495">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/EZUIKit-JavaScript/demo/demo-live.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
         </state>
       </provider>
     </entry>
